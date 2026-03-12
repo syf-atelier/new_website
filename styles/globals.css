@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Exo';
+    src: url('/fonts/Exo-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('/fonts/Exo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('/fonts/Exo-Medium.ttf') format('truetype');
+    font-weight: 500;
+    /* Medium es usualmente 500 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('/fonts/Exo-Bold.ttf') format('truetype');
+    font-weight: 700;
+    /* Usualmente Bold es 700 */
+    font-style: normal;
+}
+
+* {
+    font-family: 'Exo';
+}
+.accordion-trigger_svg {
+    stroke: #00FFF9;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.bg-gradient-andes {
+    
+    background: linear-gradient(rgba(0, 255, 249, 0) 0%, rgba(0, 153, 149, 0.2) 20%, rgba(0, 214, 209, 0.2) 80%, rgba(0, 255, 249, 0) 100%);
+}
+.bg-gradient-andes-alert {
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      #00fff9 10%,
+      #00fff9 90%,
+      transparent 100%
+    );
+  }
+  
+
+   
